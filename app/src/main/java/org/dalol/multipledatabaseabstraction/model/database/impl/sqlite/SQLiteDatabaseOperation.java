@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.database.impl.sqlite;
+package org.dalol.multipledatabaseabstraction.model.database.impl.sqlite;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -24,9 +24,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import org.dalol.mutipledatabasedemo.model.callback.OperationCallback;
-import org.dalol.mutipledatabasedemo.model.database.DatabaseOperation;
-import org.dalol.mutipledatabasedemo.model.pojo.Fruit;
+import org.dalol.multipledatabaseabstraction.model.callback.OperationCallback;
+import org.dalol.multipledatabaseabstraction.model.database.DatabaseOperation;
+import org.dalol.multipledatabaseabstraction.model.pojo.Fruit;
 
 import java.util.Collections;
 import java.util.LinkedList;

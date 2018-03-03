@@ -14,15 +14,15 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.database.impl.room;
+package org.dalol.multipledatabaseabstraction.model.database.impl.room;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
-import org.dalol.mutipledatabasedemo.model.callback.OperationCallback;
-import org.dalol.mutipledatabasedemo.model.database.DatabaseOperation;
-import org.dalol.mutipledatabasedemo.model.pojo.RoomFruit;
+import org.dalol.multipledatabaseabstraction.model.callback.OperationCallback;
+import org.dalol.multipledatabaseabstraction.model.database.DatabaseOperation;
+import org.dalol.multipledatabaseabstraction.model.pojo.RoomFruit;
 
 import java.util.Collections;
 import java.util.LinkedList;

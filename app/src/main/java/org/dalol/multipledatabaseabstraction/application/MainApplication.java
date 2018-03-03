@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.application;
+package org.dalol.multipledatabaseabstraction.application;
 
 import android.app.Application;
 

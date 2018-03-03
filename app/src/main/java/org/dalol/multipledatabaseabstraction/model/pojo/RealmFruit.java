@@ -14,9 +14,7 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.pojo;
-
-import org.dalol.mutipledatabasedemo.model.pojo.RealmRecord;
+package org.dalol.multipledatabaseabstraction.model.pojo;
 
 import io.realm.annotations.RealmClass;
 

@@ -14,20 +14,20 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo;
+package org.dalol.multipledatabaseabstraction;
 
 import android.arch.persistence.room.Room;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import org.dalol.mutipledatabasedemo.model.callback.OperationCallback;
-import org.dalol.mutipledatabasedemo.model.database.DatabaseOperation;
-import org.dalol.mutipledatabasedemo.model.database.impl.realm.RealmDatabaseOperation;
-import org.dalol.mutipledatabasedemo.model.database.impl.room.RoomDatabaseOperation;
-import org.dalol.mutipledatabasedemo.model.database.impl.sqlite.SQLiteDatabaseOperation;
-import org.dalol.mutipledatabasedemo.model.pojo.Fruit;
-import org.dalol.mutipledatabasedemo.model.pojo.RealmFruit;
-import org.dalol.mutipledatabasedemo.model.pojo.RoomFruit;
+import org.dalol.multipledatabaseabstraction.model.callback.OperationCallback;
+import org.dalol.multipledatabaseabstraction.model.database.DatabaseOperation;
+import org.dalol.multipledatabaseabstraction.model.database.impl.realm.RealmDatabaseOperation;
+import org.dalol.multipledatabaseabstraction.model.database.impl.room.RoomDatabaseOperation;
+import org.dalol.multipledatabaseabstraction.model.database.impl.sqlite.SQLiteDatabaseOperation;
+import org.dalol.multipledatabaseabstraction.model.pojo.Fruit;
+import org.dalol.multipledatabaseabstraction.model.pojo.RealmFruit;
+import org.dalol.multipledatabaseabstraction.model.pojo.RoomFruit;
 
 import java.util.Arrays;
 import java.util.List;

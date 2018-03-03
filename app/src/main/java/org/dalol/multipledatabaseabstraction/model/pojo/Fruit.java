@@ -14,11 +14,7 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.pojo;
-
-import android.arch.persistence.room.ColumnInfo;
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
+package org.dalol.multipledatabaseabstraction.model.pojo;
 
 /**
  * @author Filippo Engidashet <filippo.eng@gmail.com>
@@ -26,19 +22,12 @@ import android.arch.persistence.room.PrimaryKey;
  * @since Saturday, 03/03/2018 at 15:59.
  */
 
-@Entity
-public class RoomFruit implements Record {
+public class Fruit implements Record {
 
-    @PrimaryKey(autoGenerate = true)
-    private int uid;
-
-    @ColumnInfo(name = "fruit_name")
     private String mFruitName;
-
-    @ColumnInfo(name = "unique_identifier")
     private int mUniqueRecordId;
 
-    public RoomFruit() {
+    public Fruit() {
     }
 
     public void setFruitName(String fruitName) {
@@ -57,19 +46,10 @@ public class RoomFruit implements Record {
         return mFruitName;
     }
 
-    public void setUid(int uid) {
-        this.uid = uid;
-    }
-
-    public int getUid() {
-        return uid;
-    }
-
     @Override
     public String toString() {
-        return "RoomFruit{" +
-                "uid=" + uid +
-                ", mFruitName='" + mFruitName + '\'' +
+        return "Fruit{" +
+                "mFruitName='" + mFruitName + '\'' +
                 ", mUniqueRecordId=" + mUniqueRecordId +
                 '}';
     }

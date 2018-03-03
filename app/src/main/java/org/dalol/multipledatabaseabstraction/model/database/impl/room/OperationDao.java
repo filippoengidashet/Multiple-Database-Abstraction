@@ -14,14 +14,14 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.database.impl.room;
+package org.dalol.multipledatabaseabstraction.model.database.impl.room;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
-import org.dalol.mutipledatabasedemo.model.pojo.RoomFruit;
+import org.dalol.multipledatabaseabstraction.model.pojo.RoomFruit;
 
 import java.util.List;
 

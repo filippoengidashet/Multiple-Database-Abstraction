@@ -14,12 +14,12 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.database;
+package org.dalol.multipledatabaseabstraction.model.database;
 
 import android.content.Context;
 
-import org.dalol.mutipledatabasedemo.model.pojo.Record;
-import org.dalol.mutipledatabasedemo.model.callback.OperationCallback;
+import org.dalol.multipledatabaseabstraction.model.pojo.Record;
+import org.dalol.multipledatabaseabstraction.model.callback.OperationCallback;
 
 /**
  * @author Filippo Engidashet <filippo.eng@gmail.com>

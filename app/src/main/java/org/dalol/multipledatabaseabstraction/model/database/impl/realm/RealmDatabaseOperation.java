@@ -14,13 +14,13 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.database.impl.realm;
+package org.dalol.multipledatabaseabstraction.model.database.impl.realm;
 
 import android.content.Context;
 
-import org.dalol.mutipledatabasedemo.model.callback.OperationCallback;
-import org.dalol.mutipledatabasedemo.model.database.DatabaseOperation;
-import org.dalol.mutipledatabasedemo.model.pojo.RealmRecord;
+import org.dalol.multipledatabaseabstraction.model.callback.OperationCallback;
+import org.dalol.multipledatabaseabstraction.model.database.DatabaseOperation;
+import org.dalol.multipledatabaseabstraction.model.pojo.RealmRecord;
 
 import java.util.Collections;
 import java.util.LinkedList;

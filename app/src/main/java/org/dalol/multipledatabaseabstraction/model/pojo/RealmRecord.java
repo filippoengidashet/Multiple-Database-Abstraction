@@ -14,21 +14,15 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.callback;
+package org.dalol.multipledatabaseabstraction.model.pojo;
 
-import org.dalol.mutipledatabasedemo.model.pojo.Record;
-
-import java.util.List;
+import io.realm.RealmModel;
 
 /**
  * @author Filippo Engidashet <filippo.eng@gmail.com>
  * @version 1.0.0
- * @since Saturday, 03/03/2018 at 12:57.
+ * @since Saturday, 03/03/2018 at 13:04.
  */
 
-public interface OperationCallback<R> {
-
-    void onOperationSuccess(List<R> records);
-
-    void onOperationFailure(int failureCode, String errorMessage);
+public interface RealmRecord extends RealmModel, Record {
 }

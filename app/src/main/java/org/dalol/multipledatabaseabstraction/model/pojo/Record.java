@@ -14,7 +14,7 @@
  *  limitations under the License.
  */
 
-package org.dalol.mutipledatabasedemo.model.pojo;
+package org.dalol.multipledatabaseabstraction.model.pojo;
 
 /**
  * @author Filippo Engidashet <filippo.eng@gmail.com>

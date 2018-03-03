@@ -1,4 +1,4 @@
-package org.dalol.mutipledatabasedemo;
+package org.dalol.multipledatabaseabstraction;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
